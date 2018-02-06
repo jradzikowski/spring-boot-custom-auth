@@ -1,6 +1,6 @@
 # Spring Boot + Spring security + Maven + JPA + Custom Authentication + JSP
 
-## What it is all about
+## What is it all about?
 This code brings web application based on Spring Boot. Main idea was to presence working framework for web application based on Spring Boot that connects to database using JPA to fetch user. 
 In this project password is encrypted with BCrypth algorythm and is being kept in data base together with login (in plain text).
 
