@@ -1,12 +1,12 @@
 # Spring Boot + Spring security + Maven + JPA + Custom Authentication + JSP
 
-##What it is all about
+## What it is all about
 This code brings web application based on Spring Boot. Main idea was to presence working framework for web application based on Spring Boot that connects to database using JPA to fetch user. 
 In this project password is encrypted with BCrypth algorythm and is being kept in data base together with login (in plain text).
 
-#Getting Started
+# Getting Started
 
-##Preconditions
+## Preconditions
 Application is configured to run against Postresql database. Before you start it is mandatory to have running PostgreSQL 
 
 ## You don't need to use application.properties
