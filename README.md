@@ -126,3 +126,20 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 Endpoint "/" is accessible for everyone, logged and not logged users. 
 Endpoint "/pass" shows the same content as "/", but is available only for logged users in role "ROLE_USER"
+
+## How to run
+
+As long this project is a maven project you need to create a jar file by running 
+
+```
+mvn package
+```
+
+after this command the target directory with jar file in it shuld be created
+now ypu are ready to run the app:
+
+```
+java -jar ./target/spring-boot-custom-auth-0.0.1-SNAPSHOT.jar
+```
+
+ENJOY!
